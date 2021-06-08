@@ -45,3 +45,37 @@ header .jumbotron-container {
   height: 500px;
   background-image: url("../img/jumbotron.jpg");
 }
+
+.comics-section {
+  color: white;
+  background-color: #1c1c1c;
+}
+.comics-section .comics-section-title h1 {
+  background-color: #0c7cec;
+  max-width: 200px;
+  padding: 10px;
+  position: relative;
+  top: -28px;
+}
+.comics-section .comics-list-container {
+  padding: 50px 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.comics-section .comics-list-container .comic {
+  padding: 10px;
+  width: calc( 100% / 6 );
+}
+.comics-section .comics-list-container .comic-title p {
+  font-weight: lighter;
+}
+.comics-section .button {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.comics-section .button button {
+  background-color: #0c7cec;
+  color: white;
+  border: none;
+  padding: 8px 40px;
+}
