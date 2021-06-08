@@ -36,8 +36,47 @@
     </div>
     {{-- button load --}}
 
+  </section>
 
+  <section class="utilities">
 
+      <div class="utilities-container wrapper">
+          
+        {{-- single utilitie--}}
+        <div class="utilitie">
+            <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+            <a href="#">DIGITAL COMICS</a>
+        </div>
+        {{-- single utilitie--}}
+
+        {{-- single utilitie--}}
+        <div class="utilitie">
+            <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="logo">
+            <a href="#">DIGITAL COMICS</a>
+        </div>
+        {{-- single utilitie--}}
+
+        {{-- single utilitie--}}
+        <div class="utilitie">
+            <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="logo">
+            <a href="#">DIGITAL COMICS</a>
+        </div>
+        {{-- single utilitie--}}
+
+        {{-- single utilitie--}}
+        <div class="utilitie">
+            <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="logo">
+            <a href="#">DIGITAL COMICS</a>
+        </div>
+        {{-- single utilitie--}}
+
+        {{-- single utilitie--}}
+        <div class="utilitie">
+            <img src="{{ asset('img/buy-dc-power-visa.svg')}}" alt="logo">
+            <a href="#">DIGITAL COMICS</a>
+        </div>
+        {{-- single utilitie--}}
+      </div>
 
   </section>
 @endsection

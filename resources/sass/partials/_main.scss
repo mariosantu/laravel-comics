@@ -41,3 +41,30 @@
         }
     }
 }
+
+.utilities {
+    background-color: $brand_main;
+    padding: 40px 0;
+
+    &-container {
+       display: flex;
+       justify-content: space-between;
+
+       .utilitie {
+           display: flex;
+           justify-content: space-between;
+           align-items: center;
+
+           img {
+            height: 70px;
+            width: auto;
+           }
+
+           a {
+               text-decoration: none;
+               color: white;
+               padding-left: 10px;
+           }
+       }
+    }
+}

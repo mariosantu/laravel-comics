@@ -79,3 +79,26 @@ header .jumbotron-container {
   border: none;
   padding: 8px 40px;
 }
+
+.utilities {
+  background-color: #0c7cec;
+  padding: 40px 0;
+}
+.utilities-container {
+  display: flex;
+  justify-content: space-between;
+}
+.utilities-container .utilitie {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.utilities-container .utilitie img {
+  height: 70px;
+  width: auto;
+}
+.utilities-container .utilitie a {
+  text-decoration: none;
+  color: white;
+  padding-left: 10px;
+}
