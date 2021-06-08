@@ -1,0 +1,137 @@
+footer {
+    background-color: grey;
+    background-image: url('../img/footer-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    ::after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+
+    .dc-bg {
+        background-image: url('../img/dc-logo-bg.png');
+        background-position: 85% 26%;
+        background-repeat: no-repeat;
+    }
+
+    .footer-list-container {
+        margin-left: auto;
+        margin-right: auto;
+        padding-bottom: 40px;
+        padding-top: 40px;
+        max-width: 70%;
+        
+
+        h2 {
+            color: white;
+        }
+
+        .sx-list {
+
+            float: left;
+
+            ul {
+                list-style-type: none;
+
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color: $txt_secondary_color;
+                    }
+                }
+
+                .sx-list-bottom {
+                    padding-top: 15px;
+
+                }
+            }
+        }
+
+        .center-list, .dx-list {
+            float: left;
+            position: relative;
+            top: -30px;
+            padding-left: 30px;
+
+            ul {
+                list-style-type: none;
+
+                li {
+
+                    a {
+                        text-decoration: none;
+                        color: $txt_secondary_color;
+                    }
+                }
+            }
+        }
+    }
+
+    font-size: small;
+
+    .copyright-container {
+        padding-bottom: 15px;
+
+        p {
+            color: $txt_secondary_color;
+
+            a {
+                display: inline-block;
+                text-decoration: none;
+                color: $brand_main;
+            }
+        }
+    }
+
+
+    .footer-bot {
+        
+        padding: 20px 0;
+        background-color: #303030;
+
+        .sign-up {
+
+            float: left;
+
+            a {
+                text-decoration: none;
+                background: #303030;
+                border-color: $brand_main;
+                border-style: solid;
+                border-width: 2px;
+                color: #fff;
+                display: inline-block;
+                font-size: 20px;
+                height: 50px;
+                line-height: 45px;
+                margin-top: 30px;
+                text-align: center;
+                padding: 0 10px;
+            }
+        }
+
+        .socials {
+            float: right;
+            margin-top: 30px;
+            display: flex;
+            align-items: center;
+
+            p {
+                color: $brand_main;
+                font-size: 20px;
+            }
+
+            ul {
+                list-style-type: none;
+
+                li {
+                    display: inline-block;
+                    padding-left: 20px;
+                }
+            }
+        }
+    }
+}

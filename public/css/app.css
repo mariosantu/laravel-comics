@@ -102,3 +102,107 @@ header .jumbotron-container {
   color: white;
   padding-left: 10px;
 }
+
+footer {
+  background-color: grey;
+  background-image: url("../img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: small;
+}
+footer ::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+footer .dc-bg {
+  background-image: url("../img/dc-logo-bg.png");
+  background-position: 85% 26%;
+  background-repeat: no-repeat;
+}
+footer .footer-list-container {
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  max-width: 70%;
+}
+footer .footer-list-container h2 {
+  color: white;
+}
+footer .footer-list-container .sx-list {
+  float: left;
+}
+footer .footer-list-container .sx-list ul {
+  list-style-type: none;
+}
+footer .footer-list-container .sx-list ul li a {
+  text-decoration: none;
+  color: #566271;
+}
+footer .footer-list-container .sx-list ul .sx-list-bottom {
+  padding-top: 15px;
+}
+footer .footer-list-container .center-list, footer .footer-list-container .dx-list {
+  float: left;
+  position: relative;
+  top: -30px;
+  padding-left: 30px;
+}
+footer .footer-list-container .center-list ul, footer .footer-list-container .dx-list ul {
+  list-style-type: none;
+}
+footer .footer-list-container .center-list ul li a, footer .footer-list-container .dx-list ul li a {
+  text-decoration: none;
+  color: #566271;
+}
+footer .copyright-container {
+  padding-bottom: 15px;
+}
+footer .copyright-container p {
+  color: #566271;
+}
+footer .copyright-container p a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0c7cec;
+}
+footer .footer-bot {
+  padding: 20px 0;
+  background-color: #303030;
+}
+footer .footer-bot .sign-up {
+  float: left;
+}
+footer .footer-bot .sign-up a {
+  text-decoration: none;
+  background: #303030;
+  border-color: #0c7cec;
+  border-style: solid;
+  border-width: 2px;
+  color: #fff;
+  display: inline-block;
+  font-size: 20px;
+  height: 50px;
+  line-height: 45px;
+  margin-top: 30px;
+  text-align: center;
+  padding: 0 10px;
+}
+footer .footer-bot .socials {
+  float: right;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+}
+footer .footer-bot .socials p {
+  color: #0c7cec;
+  font-size: 20px;
+}
+footer .footer-bot .socials ul {
+  list-style-type: none;
+}
+footer .footer-bot .socials ul li {
+  display: inline-block;
+  padding-left: 20px;
+}
