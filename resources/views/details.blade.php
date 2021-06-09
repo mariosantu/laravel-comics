@@ -129,6 +129,51 @@
     </section>
     {{--Talent & Spec section--}}
 
+    {{-- main footer utilities --}}
+    <section class="utilities">
+
+        <div class="utilities-container wrapper">
+            
+          {{-- single utilitie--}}
+          <div class="utilitie">
+             <a href="#">DIGITAL COMICS</a>
+             <img src="{{ asset('img/buy-comics-digital-comics.png')}}" alt="logo">
+          </div>
+          {{-- single utilitie--}}
+  
+          {{-- single utilitie--}}
+          <div class="utilitie">
+              <a href="#">DIGITAL COMICS</a>
+              <img src="{{ asset('img/buy-comics-merchandise.png')}}" alt="logo">
+          </div>
+          {{-- single utilitie--}}
+  
+          {{-- single utilitie--}}
+          <div class="utilitie">
+              <a href="#">DIGITAL COMICS</a>
+              <img src="{{ asset('img/buy-comics-subscriptions.png')}}" alt="logo">
+          </div>
+          {{-- single utilitie--}}
+  
+          {{-- single utilitie--}}
+          <div class="utilitie">
+              <a href="#">DIGITAL COMICS</a>
+              <img src="{{ asset('img/buy-comics-shop-locator.png')}}" alt="logo">
+          </div>
+          {{-- single utilitie--}}
+  
+          {{-- single utilitie--}}
+          <div class="utilitie">
+              <a href="#">DIGITAL COMICS</a>
+              <img src="{{ asset('img/buy-dc-power-visa.svg')}}" alt="logo">
+          </div>
+          {{-- single utilitie--}}
+        </div>
+  
+    </section>
+    {{-- main footer utilities --}}
+
+
 
     
 @endsection
