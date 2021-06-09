@@ -179,10 +179,12 @@
 
    .talent-specs-container {
        display: flex;
+       //justify-content: space-between;
        color: #003f5e;
 
        .talent {
-           //padding-right: 245px;
+           //width: 50%;
+           padding-right: 50px;
 
            span {
                color: #00a9db;
@@ -191,17 +193,20 @@
 
        .content {
            display: flex;
-           justify-content: space-between;
            padding: 10px 0;
            border-top: 1px solid lightgray;
 
            span {
-               margin-left: 120px;
+               //margin-left: 120px;
            }
 
            a {
                text-decoration: none;
                color: #00a9db;
+           }
+
+           p {
+             padding-right: 30px;
            }
        }
 

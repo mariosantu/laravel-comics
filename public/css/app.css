@@ -189,21 +189,23 @@ header .jumbotron-container {
   display: flex;
   color: #003f5e;
 }
+.specs-section .talent-specs-container .talent {
+  padding-right: 50px;
+}
 .specs-section .talent-specs-container .talent span {
   color: #00a9db;
 }
 .specs-section .talent-specs-container .content {
   display: flex;
-  justify-content: space-between;
   padding: 10px 0;
   border-top: 1px solid lightgray;
-}
-.specs-section .talent-specs-container .content span {
-  margin-left: 120px;
 }
 .specs-section .talent-specs-container .content a {
   text-decoration: none;
   color: #00a9db;
+}
+.specs-section .talent-specs-container .content p {
+  padding-right: 30px;
 }
 .specs-section .talent-specs-container h3 {
   padding-bottom: 20px;
