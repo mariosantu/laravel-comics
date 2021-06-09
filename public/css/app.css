@@ -14,6 +14,14 @@ img {
   margin: auto;
 }
 
+.wrapper-xs {
+  max-width: 55%;
+  margin: auto;
+}
+
+header {
+  position: relative;
+}
 header .header-container {
   display: flex;
   justify-content: space-between;
@@ -44,6 +52,8 @@ header .header-container .search-bar-container input {
 header .jumbotron-container {
   height: 500px;
   background-image: url("../img/jumbotron.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .comics-section {
@@ -101,6 +111,102 @@ header .jumbotron-container {
   text-decoration: none;
   color: white;
   padding-left: 10px;
+}
+
+.comics-details-section .blue-banner {
+  padding: 45px;
+  background-color: #0c7cec;
+}
+.comics-details-section .comic-cover {
+  position: absolute;
+  top: 38%;
+  left: 22%;
+}
+.comics-details-section .comic-cover img {
+  height: 291px;
+  width: 192px;
+}
+.comics-details-section .comics-details-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 40px 0;
+}
+.comics-details-section .comics-details-container .details-info-container {
+  padding-right: 115px;
+}
+.comics-details-section .comics-details-container .details-info-container .details-info-title h1 {
+  font-size: xx-large;
+  color: #003f5e;
+}
+.comics-details-section .comics-details-container .details-info-container .availability-container {
+  display: flex;
+  justify-content: space-between;
+  background-color: #55ba59;
+  border-bottom: 1px solid black;
+}
+.comics-details-section .comics-details-container .details-info-container .availability-container .first-column {
+  color: #b0fd9c;
+}
+.comics-details-section .comics-details-container .details-info-container .availability-container .first-column p {
+  padding: 15px 20px;
+}
+.comics-details-section .comics-details-container .details-info-container .availability-container .first-column span {
+  color: white;
+}
+.comics-details-section .comics-details-container .details-info-container .availability-container .second-column {
+  color: #b0fd9c;
+  padding-left: 245px;
+}
+.comics-details-section .comics-details-container .details-info-container .availability-container .second-column p {
+  padding: 15px 2px;
+}
+.comics-details-section .comics-details-container .details-info-container .availability-container .third-column {
+  color: white;
+  border-left: 1px solid black;
+}
+.comics-details-section .comics-details-container .details-info-container .availability-container .third-column p {
+  padding: 15px 11px;
+}
+.comics-details-section .comics-details-container .details-info-container .description p {
+  padding: 10px 0;
+  color: grey;
+}
+.comics-details-section .comics-details-container .adv-container span {
+  text-align: end;
+  color: #566271;
+}
+.comics-details-section .comics-details-container .adv-container img {
+  height: 300px;
+  width: auto;
+}
+
+.specs-section {
+  background-color: #f6f6f6;
+  padding: 50px 0;
+}
+.specs-section .talent-specs-container {
+  display: flex;
+  color: #003f5e;
+}
+.specs-section .talent-specs-container .talent span {
+  color: #00a9db;
+}
+.specs-section .talent-specs-container .content {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 0;
+  border-top: 1px solid lightgray;
+}
+.specs-section .talent-specs-container .content span {
+  margin-left: 120px;
+}
+.specs-section .talent-specs-container .content a {
+  text-decoration: none;
+  color: #00a9db;
+}
+.specs-section .talent-specs-container h3 {
+  padding-bottom: 20px;
 }
 
 footer {

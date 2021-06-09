@@ -68,3 +68,145 @@
        }
     }
 }
+
+
+// DETAILS SECTION
+
+.comics-details-section {
+    
+    .blue-banner {
+        padding: 45px;
+        background-color: $brand_main;
+    }
+
+    .comic-cover {
+        position: absolute;
+        top: 38%;
+        left: 22%;
+
+        img {
+            height: 291px;
+            width: 192px;
+        }
+    }
+
+    .comics-details-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 40px 0;
+
+        .details-info-container {
+            //test
+            padding-right: 115px;
+
+            .details-info-title {
+
+                h1 {
+                    font-size: xx-large;
+                    color: #003f5e;
+                }
+                
+            }
+
+            .availability-container {
+                display: flex;
+                justify-content: space-between;
+                background-color: #55ba59;
+                border-bottom: 1px solid black;
+
+                .first-column {
+                    color: #b0fd9c;
+                    
+                    p {
+                        padding: 15px 20px;
+                    }
+
+                    span {
+                        color: white;
+                    }
+                }
+
+                .second-column {
+                    color: #b0fd9c;
+                    padding-left: 245px;
+
+                    p {
+                        padding: 15px 2px;
+                    }
+                }
+
+                .third-column {
+                    color: white;
+                    border-left: 1px solid black;
+
+                    p {
+                        padding: 15px 11px;
+                    }
+                }
+            }
+
+            .description {
+
+                p {
+                    padding: 10px 0;
+                    color: grey;
+                }
+            }
+        }
+
+        .adv-container {
+
+            span {
+                text-align: end;
+                color: $txt_secondary_color;
+            }
+
+            img {
+                height: 300px;
+                width: auto;
+            }
+        }
+    }
+}
+
+
+//SPECS SECTION 
+
+.specs-section {
+   background-color: #f6f6f6;
+   padding: 50px 0;
+
+   .talent-specs-container {
+       display: flex;
+       color: #003f5e;
+
+       .talent {
+           //padding-right: 245px;
+
+           span {
+               color: #00a9db;
+           }
+       }
+
+       .content {
+           display: flex;
+           justify-content: space-between;
+           padding: 10px 0;
+           border-top: 1px solid lightgray;
+
+           span {
+               margin-left: 120px;
+           }
+
+           a {
+               text-decoration: none;
+               color: #00a9db;
+           }
+       }
+
+       h3 {
+           padding-bottom: 20px;
+       }
+   }
+}
